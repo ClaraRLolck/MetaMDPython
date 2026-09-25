@@ -1,6 +1,6 @@
 # MetaMDPython
 
-`metaMD` runs molecular-dynamics-based metadynamics searches for reactions from a SMILES input. It relaxes an initial structure, runs biased dynamics, identifies and records structures/reactions, and can aggregate results from repeated runs. The workflow is written for the chemistry group's SLURM cluster and its installed computational chemistry software.
+`MetaMDPython` runs molecular-dynamics-based metadynamics searches for reactions from a SMILES input. It relaxes an initial structure, runs biased dynamics, identifies and records structures/reactions, and can aggregate results from repeated runs. The workflow is written for the chemistry group's SLURM cluster and its installed computational chemistry software.
 
 ## Contents
 
