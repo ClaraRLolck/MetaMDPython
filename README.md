@@ -41,7 +41,7 @@ python metaMD.py <smiles_index> <run_number> <smiles> <scale_factor> <time_ps> <
 For example, the batch script invokes it in this argument order:
 
 ```text
-python /path/to/metaMD.py 0 0 'CCO' 0.8 5 0.05 0.3 12345 g-xTB False
+python metaMD.py 0 0 'CCO' 0.8 5 0.05 0.3 12345 g-xTB False
 ```
 
 `method` currently selects `g-xTB` or `UMA`. `with_products` must be the literal `True` or `False`. A single run creates `run<run_number>/` and writes its reaction dataframe as `dataframe.pkl` in the parent working directory. The run directory also contains a structure database, XYZ files, trajectory/analysis artifacts, and `timing.txt` when generated during execution.
